@@ -2,10 +2,10 @@ const mysql = require('mysql');
 
 //create connection
 const db = mysql.createConnection({
-    host: '104.155.178.142',
+    host: 'hostName',
     user: 'root',
-    password: 'Rakb@123',
-    database: 'rakbdigitalapp_database'
+    password: 'password',
+    database: 'database'
 });
 
 module.exports = db;
